@@ -198,11 +198,11 @@ const tasks = [
   function checkTaskHTML(confirmed, task){
     let currentTask = Object.values(objOfTasks).find(el => el._id == task.dataset.taskId.toString().trim());
     if(!confirmed){
-      task.style.backgroundColor = "red" // completed  task
+      task.style.backgroundColor = "#71c265" // completed  task
           currentTask.completed = true;
         
     }if(confirmed){
-      task.style.backgroundColor = "blue" // non-completed task
+      task.style.backgroundColor = "#afb5ae" // non-completed task
       currentTask.completed = false
     }
    
