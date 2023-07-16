@@ -46,7 +46,7 @@ const tasks = [
 
   // Elemnts UI
   
-  const sortObj = Object.values(objOfTasks).sort((prevTask, nextTask) => nextTask.completed - (prevTask.completed) )
+
   const listContainer = document.querySelector(
     '.tasks-list-section .list-group',
   );
